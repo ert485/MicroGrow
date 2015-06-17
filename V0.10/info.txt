@@ -1,0 +1,5 @@
+Information:
+
+.scad files were edited with OpenScad software
+.dxf files were exported from OpenScad
+.smc files were edited with SmartCarve software for laser cutting
