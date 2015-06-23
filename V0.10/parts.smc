@@ -151,7 +151,7 @@
       <SubAreaHeight value = "100000.000000"/>
     </PathOpt>
     <text_size value = "1"/>
-    <Text_Font value = "@DFGothic-EB"/>
+    <Text_Font value = "@Batang"/>
     <Text_FontType value = "0"/>
   </workspace>
   <GTConfig>
@@ -806,6 +806,18 @@
       <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112000,55000,10000;142000,115000;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
       <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "92000,115000,10000;62000,55000;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
       <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "31999,55000,10000;62000,115000;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "27500,47000" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "32500,47000" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "37500,47000" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "107300,47800" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "112300,47800" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "117300,47800" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "167100,122200" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "172100,122200" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "177100,122200" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "87300,122200" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "92300,122200" end = "12.288070"/>
+      <ellipse rotate = "1.570796" radius_a = "1500" begin = "6.004885" deasil = "false" radius_b = "1500" center = "97300,122200" end = "12.288070"/>
     </group>
   </group_list>
 </smartcarve>

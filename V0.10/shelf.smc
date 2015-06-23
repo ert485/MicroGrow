@@ -744,6 +744,9 @@
             <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "0,64005,10000;204000,64006;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
             <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "0,9999,10000;203999,10000;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
           </group>
+          <ellipse rotate = "1.570796" radius_a = "1500" begin = "5.798707" deasil = "false" radius_b = "1500" center = "27100,70000" end = "12.081892"/>
+          <ellipse rotate = "1.570796" radius_a = "1500" begin = "5.798707" deasil = "false" radius_b = "1500" center = "102000,69200" end = "12.081892"/>
+          <ellipse rotate = "1.570796" radius_a = "1500" begin = "5.798707" deasil = "false" radius_b = "1500" center = "177900,69400" end = "12.081892"/>
         </group>
         <leftover/>
       </array>
