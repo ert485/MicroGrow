@@ -32,8 +32,8 @@ translate([60,0]) rotate(90) brace(s=s,k=k,x=165,w=(204-165)/2,zip=0);
 translate([140,0]) rotate(90) shelf(x=204,w=54,h=10,t=.006,hookX=165,hookY=5.5,hookT=3);
 
 //brace for stacking
-translate([180,0]) rotate(90) brace(s=s,k=k,x=165,w=25,zip=0);
-translate([180,0]) rotate(90) mirror([0,1,0]) brace(s=s,k=k,x=165,w=25,zip=0);
+translate([180,0]) rotate(90) brace(s=s,k=k,x=165,w=(204-165)/2,zip=0);
+translate([180,0]) rotate(90) mirror([0,1,0]) brace(s=s,k=k,x=165,w=(204-165)/2,zip=0);
 
 //stacking leg 
 translate([-120,0]) leg(s=s,k=k,baseX=0.0001,baseY=40,lip=8,rows=3,backX=20,baseA=61.5,notchY=11,hook=hook);

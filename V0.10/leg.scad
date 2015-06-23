@@ -15,11 +15,11 @@ Copyright 2015 Erik Tetland
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-module leg(angle=0,rows=4,wide=60,deep=10,lip=40,backX=15,baseX=75,baseY=17,s=3,k=0,notchX=10,notchY=8.5,baseA=30,zip=0,zipL=70,zipX=2.5,zipY=1,edge=0,hook=[[-2,6.5],[-1.2,6.8],[0,4.5],[0,0]]){
+module leg(angle=0,rows=4,wide=60,deep=10,lip=40,backX=15,baseX=75,baseY=17,s=3,k=0,notchX=10,notchY=8.5,baseA=30,zip=0,zipL=70,zipX=2.5,zipY=1,edge=0,hook=[[-2,6.5],[-1.2,6.8],[0,4.5],[0,0]],stack=1){
 echo(deep+hook[0][1]);
 //calculate total height:
 	between=lip*2;
-	tall=baseY+(rows-1)*between+sin(angle)*wide+lip+deep+hook[0][1]-lip;
+	tall=baseY+(rows-1)*between+sin(angle)*wide+lip+deep+hook[0][1]-lip+stack*(lip*2-baseY);
 	echo(tall);
 
 
@@ -45,7 +45,7 @@ module row(a,w,d,l,e,h){
 		difference(){
 			union(){
 				square([l,l+cos(a)*d]);
-				translate([l,0]) square([sin(a)*d+cos(a)*w,w]);
+				translate([l,w/3]) square([sin(a)*d+cos(a)*w,w*2/3]);
 		}
 			translate([l,l+cos(a)*d])rotate(a)translate([0,-d]) square(w*2);
 			if(e==0) square([l+sin(a)*d,100]);
